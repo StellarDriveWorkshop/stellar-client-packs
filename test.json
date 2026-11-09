@@ -1,9 +1,9 @@
 {
   "channel": "Test",
-  "tag": "test-2026.11.08.3",
-  "sha256": "a804ad8c3d0e518c75b135f2ed4d84bcc9c36ca24cdb0d6d7337644d559fa51c",
-  "download": "https://stellardriveworkshop.github.io/stellar-client-packs/packs/test-2026.11.08.3/StellarDrive-test-2026.11.08.3.zip",
-  "checksums": "https://stellardriveworkshop.github.io/stellar-client-packs/packs/test-2026.11.08.3/SHA256SUMS",
-  "manifest": "https://stellardriveworkshop.github.io/stellar-client-packs/packs/test-2026.11.08.3/manifest.json",
-  "startedUtc": "2026-11-09T07:05:34.3547975Z"
+  "tag": "test-2026.11.09.2",
+  "sha256": "8c0d0f0b894c8a78ab71556ad71ef1c364a7a18d0a467ebfe456a3bcae565167",
+  "download": "https://stellardriveworkshop.github.io/stellar-client-packs/packs/test-2026.11.09.2/StellarDrive-test-2026.11.09.2.zip",
+  "checksums": "https://stellardriveworkshop.github.io/stellar-client-packs/packs/test-2026.11.09.2/SHA256SUMS",
+  "manifest": "https://stellardriveworkshop.github.io/stellar-client-packs/packs/test-2026.11.09.2/manifest.json",
+  "startedUtc": "2026-11-09T07:15:11.5477295Z"
 }
