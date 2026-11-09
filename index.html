@@ -36,7 +36,7 @@
       const pack = await response.json();
       if (pack.channel !== 'Test' || !/^test-[A-Za-z0-9][A-Za-z0-9._-]{0,79}$/.test(pack.tag) ||
           !/^[0-9a-f]{64}$/.test(pack.sha256)) throw new Error('Invalid pointer');
-      const base = `https://github.com/StellarDriveWorkshop/stellar-client-packs/releases/download/${pack.tag}`;
+      const base = `https://stellardriveworkshop.github.io/stellar-client-packs/packs/${pack.tag}`;
       const links = { download: `StellarDrive-${pack.tag}.zip`, manifest: 'manifest.json', checksums: 'SHA256SUMS' };
       for (const [id, file] of Object.entries(links)) {
         if (pack[id] !== `${base}/${file}`) throw new Error('Invalid release link');
