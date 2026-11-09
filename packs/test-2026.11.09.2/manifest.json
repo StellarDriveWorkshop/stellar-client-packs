@@ -1,0 +1,289 @@
+{
+  "schema": 1,
+  "channel": "Test",
+  "pack": "test-2026.11.09.2",
+  "game": "StellarDrive Demo 0.8.2",
+  "loader": "MelonLoader 0.7.3 Mono x64",
+  "serverObservedUtc": "2026-11-09T03:25:00.7875093Z",
+  "cleanRemoteJoin": "pending",
+  "mods": [
+    {
+      "file": "Arsenal.dll",
+      "version": "1.12.1",
+      "sha256": "0952229137a17f71057b1ce849ff07d75e4a2b292873acf622de8a08327449f0",
+      "size": 441856,
+      "delivery": "upstream",
+      "release": "https://github.com/tidic84/StellarDrive-Arsenal/releases/tag/v1.12.1",
+      "download": "https://github.com/tidic84/StellarDrive-Arsenal/releases/download/v1.12.1/StellarDrive-Arsenal.zip",
+      "member": "Mods/Arsenal.dll",
+      "assetId": 674738623
+    },
+    {
+      "file": "Crouch.dll",
+      "version": "0.1.0",
+      "sha256": "8328929964c0ec905a9999f13afd0b42540a925ccbd9740e2e4ad9f01e66c519",
+      "size": 21504,
+      "delivery": "upstream",
+      "release": "https://github.com/Krunk-theduck/StellarDriveCrouch/releases/tag/v0.1.0",
+      "download": "https://github.com/Krunk-theduck/StellarDriveCrouch/releases/download/v0.1.0/StellarDriveCrouch.zip",
+      "member": "Mods/Crouch.dll",
+      "assetId": 594426479
+    },
+    {
+      "file": "DedicatedServer-1.4.2.dll",
+      "version": "1.4.2",
+      "sha256": "e36c325dfed16e4d9bacce624b34914e7d00129593587f689b0e0cb395ab2fb6",
+      "size": 423936,
+      "delivery": "upstream",
+      "release": "https://github.com/3ndl3ssSkys/StellarDrive-DedicatedServer/releases/tag/v1.4.2",
+      "download": "https://github.com/3ndl3ssSkys/StellarDrive-DedicatedServer/releases/download/v1.4.2/StellarDrive-DedicatedServer.2.zip",
+      "member": "StellarDrive-DedicatedServer/Mods/DedicatedServer-1.4.2.dll",
+      "assetId": 626971832
+    },
+    {
+      "file": "Electrolyzer.dll",
+      "version": "0.1.3",
+      "sha256": "b7d42301d2336d2f1db240d59604e0e56a32095fc78e8795b0a311e5d7253c2f",
+      "size": 128512,
+      "delivery": "upstream",
+      "release": "https://github.com/Krunk-theduck/StellarDriveElectrolyzer/releases/tag/v0.1.3",
+      "download": "https://github.com/Krunk-theduck/StellarDriveElectrolyzer/releases/download/v0.1.3/StellarDriveElectrolyzer.zip",
+      "member": "Mods/Electrolyzer.dll",
+      "assetId": 598967372
+    },
+    {
+      "file": "ExpandedStacks.dll",
+      "version": "1.0.0",
+      "sha256": "975302a74fd51c0ba270e19139c9f4bba18697eb66643af716f6b6921f8247f7",
+      "size": 5120,
+      "delivery": "upstream",
+      "release": "https://github.com/AlexsanderHam/StellarDrive-ExpandedStacks/releases/tag/v1.0.0",
+      "download": "https://github.com/AlexsanderHam/StellarDrive-ExpandedStacks/releases/download/v1.0.0/StellarDrive-ExpandedStacks.zip",
+      "member": "Mods/ExpandedStacks.dll",
+      "assetId": 603851447
+    },
+    {
+      "file": "HandyBeaconTracker.dll",
+      "version": "1.0.0",
+      "sha256": "1665c86c221eb71fae411bb37aa368b59c415646c7a27de8bcfbff01b8555493",
+      "size": 76800,
+      "delivery": "upstream",
+      "release": "https://github.com/VILICZECH/StellarDrive-HandyBeaconTracker/releases/tag/v1.0.0",
+      "download": "https://github.com/VILICZECH/StellarDrive-HandyBeaconTracker/releases/download/v1.0.0/StellarDrive-HandyBeaconTracker.zip",
+      "member": "Mods/HandyBeaconTracker.dll",
+      "assetId": 657424339
+    },
+    {
+      "file": "ItemLines.dll",
+      "version": "0.1.2",
+      "sha256": "f81b1ce2f734cdd6bf79e346098afb8866460b1f69e43279937bea9e38b648f9",
+      "size": 31232,
+      "delivery": "upstream",
+      "release": "https://github.com/Krunk-theduck/StellarDriveItemLines/releases/tag/v0.1.2",
+      "download": "https://github.com/Krunk-theduck/StellarDriveItemLines/releases/download/v0.1.2/StellarDriveItemLines.zip",
+      "member": "Mods/ItemLines.dll",
+      "assetId": 598978593
+    },
+    {
+      "file": "LogicSwitch.dll",
+      "version": "1.4.0",
+      "sha256": "8f45e23c42de8166804494be2fc16e762ebad4ab2542a7e3553b6cc6b5c959cd",
+      "size": 58880,
+      "delivery": "upstream",
+      "release": "https://github.com/gaby2-0/LogicSwitch/releases/tag/v1.4.0",
+      "download": "https://github.com/gaby2-0/LogicSwitch/releases/download/v1.4.0/LogicSwitch-1.4.0.zip",
+      "member": "Mods/LogicSwitch.dll",
+      "assetId": 644701619
+    },
+    {
+      "file": "ModManager.dll",
+      "version": "1.1.0",
+      "sha256": "7b38d17f79366db989e0e66df9d998a7b2b7b12280e9ea21a6929d764b54c0d6",
+      "size": 67584,
+      "delivery": "upstream",
+      "release": "https://github.com/Krunk-theduck/StellarDriveModManager/releases/tag/v1.1.1",
+      "download": "https://github.com/Krunk-theduck/StellarDriveModManager/releases/download/v1.1.1/StellarDriveModManager.zip",
+      "member": "Mods/ModManager.dll",
+      "assetId": 587801192
+    },
+    {
+      "file": "MoreMath.dll",
+      "version": "1.3.0",
+      "sha256": "c5b09b8552c8982a98a5c74397016319338cbd1de788d17724761e3a6311ab5b",
+      "size": 3818496,
+      "delivery": "upstream",
+      "release": "https://github.com/MausCD/StellarDrive-MoreMath/releases/tag/v1.3.0",
+      "download": "https://github.com/MausCD/StellarDrive-MoreMath/releases/download/v1.3.0/StellarDrive-MoreMath.zip",
+      "member": "StellarDrive-MoreMath/Mods/MoreMath.dll",
+      "assetId": 676019111
+    },
+    {
+      "file": "NecessaryFixes.dll",
+      "version": "1.0.0",
+      "sha256": "9c7a0ca5e6105b32b3ba88c4329eb2e9510930b38cba78023b8e5cfa7bee2241",
+      "size": 112128,
+      "delivery": "upstream",
+      "release": "https://github.com/3ndl3ssSkys/StellarDrive-NecessaryFixes/releases/tag/v1.0.0",
+      "download": "https://github.com/3ndl3ssSkys/StellarDrive-NecessaryFixes/releases/download/v1.0.0/StellarDrive-NecessaryFixes.zip",
+      "member": "StellarDrive-NecessaryFixes/Mods/NecessaryFixes.dll",
+      "assetId": 620720137
+    },
+    {
+      "file": "SandboxMenu.dll",
+      "version": "1.0.0",
+      "sha256": "e1e334ada7c38f12e1c5d020ad03dac474ea368c0dc4c7e3af6770797c1b0410",
+      "size": 29184,
+      "delivery": "upstream",
+      "release": "https://github.com/jollyname/StellarDrive-SandboxMenuMod/releases/tag/v1.0.0",
+      "download": "https://github.com/jollyname/StellarDrive-SandboxMenuMod/releases/download/v1.0.0/StellarDrive-SandboxMenuMod.zip",
+      "member": "StellarDrive-SandboxMenuMod/Mods/SandboxMenu.dll",
+      "assetId": 630302282
+    },
+    {
+      "file": "SDModKit.dll",
+      "version": "1.3.3",
+      "sha256": "1d28675f69e558140fc73e432a0b58e9da4d2c34b664d3d566f29d28f9d20bc3",
+      "size": 333824,
+      "delivery": "upstream",
+      "release": "https://github.com/Krunk-theduck/SDModKit/releases/tag/v1.3.3",
+      "download": "https://github.com/Krunk-theduck/SDModKit/releases/download/v1.3.3/SDModKit.zip",
+      "member": "Mods/SDModKit.dll",
+      "assetId": 601549224
+    },
+    {
+      "file": "ShipPerformanceFix.dll",
+      "version": "0.4.3",
+      "sha256": "470d97dc88bb46cdb037f2eabcf0116da587b441afda64190e2f3d00d73eefa0",
+      "size": 45056,
+      "delivery": "upstream",
+      "release": "https://github.com/tidic84/StellarDrive-ShipPerformanceFix/releases/tag/v0.4.3",
+      "download": "https://github.com/tidic84/StellarDrive-ShipPerformanceFix/releases/download/v0.4.3/StellarDrive-ShipPerformanceFix.zip",
+      "member": "Mods/ShipPerformanceFix.dll",
+      "assetId": 673288919
+    },
+    {
+      "file": "ShipSchematics.dll",
+      "version": "1.0.2",
+      "sha256": "11b6409966980cd2af603def9a880634300dbde21347f41b96429692dd68133d",
+      "size": 167936,
+      "delivery": "upstream",
+      "release": "https://github.com/VILICZECH/StellarDrive-ShipSchematics/releases/tag/v1.0.2",
+      "download": "https://github.com/VILICZECH/StellarDrive-ShipSchematics/releases/download/v1.0.2/StellarDrive-ShipSchematics.zip",
+      "member": "Mods/ShipSchematics.dll",
+      "assetId": 645587934
+    },
+    {
+      "file": "StellarAltimeter.dll",
+      "version": "0.1.11",
+      "sha256": "5dc4e545416b201ef4ae115f98f9de4f8d892978a415aac61221facfb0630f78",
+      "size": 14336,
+      "delivery": "bundled"
+    },
+    {
+      "file": "StellarArsenalServerFix.dll",
+      "version": "0.1.2",
+      "delivery": "bundled",
+      "size": 17920,
+      "sha256": "ab894f1e9421c6a0a68e1480073f4fd87be484c66add17779babe4434f524a85"
+    },
+    {
+      "file": "StellarBattery.dll",
+      "version": "0.2.1",
+      "delivery": "bundled",
+      "size": 50688,
+      "sha256": "647798f50923571b76ae168553008df736cd0150bdaa2c07fac7d8480d17fbc9"
+    },
+    {
+      "file": "StellarCockpitInteract.dll",
+      "version": "0.1.13",
+      "delivery": "bundled",
+      "size": 40960,
+      "sha256": "cc136f7f1d2c5cc1803ae1e448e156705f6483785ccdf591e93a407208078e9d"
+    },
+    {
+      "file": "StellarElectrolyzerFix.dll",
+      "version": "0.2.0",
+      "delivery": "bundled",
+      "size": 18944,
+      "sha256": "de0f19895d2028d367b6d8480f9a9ba2f0b49554eeab8f85bc86b67aafa07000"
+    },
+    {
+      "file": "StellarFoundations.dll",
+      "version": "0.5.13",
+      "delivery": "bundled",
+      "size": 158720,
+      "sha256": "48fcdce1567d506e3ae932287c0183c6e715f4a31cddfecada3b191edfb8a391"
+    },
+    {
+      "file": "StellarFunctions.dll",
+      "version": "0.5.0",
+      "delivery": "bundled",
+      "size": 198144,
+      "sha256": "3b58060f80f85f8818fa224258569e96de8e5a0e1a6c2c846070acc2dfe66e7c"
+    },
+    {
+      "file": "StellarHalfTiles.dll",
+      "version": "0.1.3",
+      "delivery": "bundled",
+      "size": 29696,
+      "sha256": "4f38444ca5d196bbde17cef5599b15a8b775f0552b099f6225ce91b2f8305d5f"
+    },
+    {
+      "file": "StellarPrecisionTool.dll",
+      "version": "0.2.1",
+      "delivery": "bundled",
+      "size": 46592,
+      "sha256": "cc36a9c03a547f8054325dcfad0de9bd9103b487efe133ba2d66e6eb24a5826e"
+    },
+    {
+      "file": "StellarRotorFix.dll",
+      "version": "0.1.5",
+      "delivery": "bundled",
+      "size": 39936,
+      "sha256": "908942bdddd93bfc47971993464364f1b418bf5a003f3574ae633165cb1496cc"
+    },
+    {
+      "file": "StellarSchematicsServerFix.dll",
+      "version": "0.3.5",
+      "delivery": "bundled",
+      "size": 93184,
+      "sha256": "3b41d2e88a0f83c27224aa02e6f54059caff360e45970b972252d2659556ebae"
+    },
+    {
+      "file": "StellarUnlock.dll",
+      "version": "1.3.4",
+      "sha256": "23702b401283f83b2b7a9b99a1c4ed6cf8439a24f63028479393a54439a1e6b5",
+      "size": 26624,
+      "delivery": "upstream",
+      "release": "https://github.com/Krunk-theduck/StellarUnlock/releases/tag/v1.3.4",
+      "download": "https://github.com/Krunk-theduck/StellarUnlock/releases/download/v1.3.4/StellarUnlock.zip",
+      "member": "Mods/StellarUnlock.dll",
+      "assetId": 602082934
+    },
+    {
+      "file": "StellarWallSocketFix.dll",
+      "version": "0.1.2",
+      "delivery": "bundled",
+      "size": 8704,
+      "sha256": "44b1200a654c2bc5586618e5334ffcfa7e5559e16c526a6b7ed5ec65288ee74d"
+    },
+    {
+      "file": "StellarWheels.dll",
+      "version": "0.2.2",
+      "delivery": "bundled",
+      "size": 55296,
+      "sha256": "5d317d1c7aee5eab76c9f7f94543c0724971f27bab6386acc4414465b607ecc9"
+    },
+    {
+      "file": "UpgradeTable.dll",
+      "version": "0.1.2",
+      "sha256": "66ca5e51ee3f5c6d214092c2c0337a422f9102d83fad6ff19db745d6ca774794",
+      "size": 24064,
+      "delivery": "upstream",
+      "release": "https://github.com/Krunk-theduck/StellarDriveUpgradeTable/releases/tag/v0.1.2",
+      "download": "https://github.com/Krunk-theduck/StellarDriveUpgradeTable/releases/download/v0.1.2/StellarDriveUpgradeTable.zip",
+      "member": "Mods/UpgradeTable.dll",
+      "assetId": 601551187
+    }
+  ]
+}
