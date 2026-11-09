@@ -1,0 +1,9 @@
+{
+  "channel": "Test",
+  "tag": "test-2026.11.08.3",
+  "sha256": "a804ad8c3d0e518c75b135f2ed4d84bcc9c36ca24cdb0d6d7337644d559fa51c",
+  "download": "https://github.com/StellarDriveWorkshop/stellar-client-packs/releases/download/test-2026.11.08.3/StellarDrive-test-2026.11.08.3.zip",
+  "checksums": "https://github.com/StellarDriveWorkshop/stellar-client-packs/releases/download/test-2026.11.08.3/SHA256SUMS",
+  "manifest": "https://github.com/StellarDriveWorkshop/stellar-client-packs/releases/download/test-2026.11.08.3/manifest.json",
+  "startedUtc": "2026-11-09T04:37:35.5274350Z"
+}
