@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StellarDrive Workshop client downloads</title>
+<style>
+  body { max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem;
+         font: 1rem/1.55 system-ui, sans-serif; color: #f0f4fa; background: #14202c; }
+  h1 { line-height: 1.15; }
+  section { padding: 1.5rem; border: 1px solid #62788e; border-radius: .75rem; }
+  a { color: #9cd9ff; }
+  a[download] { display: inline-block; padding: .55rem 1rem; border-radius: .35rem;
+                background: #9cd9ff; color: #14202c; font-weight: bold; }
+  code { overflow-wrap: anywhere; }
+</style>
+<main>
+  <h1>StellarDrive Workshop</h1>
+  <section aria-labelledby="test-heading">
+    <h2 id="test-heading">Test client pack</h2>
+    <p id="status" role="status">Checking for a verified Test pack…</p>
+    <div id="pack" hidden>
+      <p><a id="download" download>Download Test ZIP</a></p>
+      <p><a id="manifest">Mod manifest</a> · <a id="checksums">SHA-256 checksums</a></p>
+      <p>Use StellarDrive Demo 0.8.2 with MelonLoader 0.7.3 Mono x64. Extract the
+         ZIP and follow INSTALL.md to prepare a clean Mods folder. Keep a backup
+         of your existing Mods folder before switching.</p>
+    </div>
+  </section>
+</main>
+<script>
+  const statusLine = document.querySelector('#status');
+  (async () => {
+    try {
+      const response = await fetch('test.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('Pointer unavailable');
+      const pack = await response.json();
+      if (pack.channel !== 'Test' || !/^test-[A-Za-z0-9][A-Za-z0-9._-]{0,79}$/.test(pack.tag) ||
+          !/^[0-9a-f]{64}$/.test(pack.sha256)) throw new Error('Invalid pointer');
+      const base = `https://github.com/StellarDriveWorkshop/stellar-client-packs/releases/download/${pack.tag}`;
+      const links = { download: `StellarDrive-${pack.tag}.zip`, manifest: 'manifest.json', checksums: 'SHA256SUMS' };
+      for (const [id, file] of Object.entries(links)) {
+        if (pack[id] !== `${base}/${file}`) throw new Error('Invalid release link');
+        document.getElementById(id).href = pack[id];
+      }
+      statusLine.textContent = `Last verified Test pack · ${pack.tag}`;
+      document.querySelector('#pack').hidden = false;
+    } catch {
+      statusLine.textContent = 'A verified Test pack is currently unavailable.';
+    }
+  })();
+</script>
